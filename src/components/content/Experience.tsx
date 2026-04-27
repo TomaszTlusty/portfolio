@@ -11,7 +11,7 @@ export default function Experience() {
   const competition  = careerSchema.parse(competitionData).career;
 
   return (
-    <Tabs defaultValue="work" className={"w-full sm:max-w-3xl max-w-md sm:mx-auto mt-16"}>
+    <Tabs defaultValue="work" className={"w-full sm:max-w-3xl max-w-md mx-auto mt-16"}>
       <TabsList className="mb-2 grid grid-cols-3">
         <TabsTrigger value="work">Doświadczenie</TabsTrigger>
         <TabsTrigger value="competition">Konkursy</TabsTrigger>

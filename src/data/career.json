@@ -10,7 +10,7 @@
           "start": "04.2026",
           "end": "05.2026",
           "description": [
-            "Built and deployed responsive web interfaces using Next.js, TypeScript, Tailwind CSS, and Motion library. Handled full deployment pipeline via Vercel with CI/CD, SSL, and security headers configuration. Worked with Figma for wireframing and Git for version control"
+            "Zbudowałem i wdrożyłem responsywne interfejsy webowe przy użyciu Next.js, TypeScript, Tailwind CSS oraz biblioteki Motion. Zarządzałem całym procesem wdrożenia za pomocą Vercel, Korzystałem z Figmy do tworzenia wireframe’ów oraz z Gita do kontroli wersji."
           ]
         }
       ]

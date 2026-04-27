@@ -37,7 +37,7 @@ export default function Hero() {
                 </div>
             </div>
             <div className={"sm:w-[50%] sm:max-w-[50%] items-center justify-center z-10 "}>
-                <Image src={"/tlusty.png"} alt={"Selfie Tomasza"} width={310}  height={250} className={"rounded-3xl mx-auto sm:ml-auto sm:mr-4"} />
+                <Image src={"/img/tlusty.png"} alt={"Selfie Tomasza"} width={310}  height={250} className={"rounded-3xl mx-auto sm:ml-auto sm:mr-4"} />
             </div>
         </section>
     );
