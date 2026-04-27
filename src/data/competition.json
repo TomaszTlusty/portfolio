@@ -1,0 +1,48 @@
+{
+  "career": [
+    {
+      "name": "Gigathon",
+      "href": "#",
+      "logo": "/img/Gigathon.png",
+      "positions": [
+        {
+          "title": "Participant",
+          "start": "2025",
+          "end": "1 dzień",
+          "description": [
+            "Udział w ogólnopolskim konkursie algorytmicznym w języku Python"
+          ],
+          "links": [
+            {
+              "name": "Projekt",
+              "href": "https://github.com/FarciarzYT/KlondikeSolitaireCLI",
+              "icon": "globe"
+            }
+            ]
+        }
+      ]
+    },
+    {
+      "name": "Samsung SFT",
+      "href": "#",
+      "logo": "/img/SFT.bmp",
+      "positions": [
+        {
+          "title": "Participant",
+          "start": "12.2025",
+          "end": "02.2026",
+          "description": [
+            "Udział w Samsung Solve for Tomorrow, praca nad projektem technologicznym rozwiązującym realny problem."
+          ],
+          "links": [
+            {
+              "name": "Nagranie",
+              "href": "https://www.youtube.com/watch?v=-f070q0ycuI",
+              "icon": "globe"
+            }
+            ]
+         }
+      ]
+    }
+  ]
+}

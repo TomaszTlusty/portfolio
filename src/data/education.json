@@ -1,0 +1,16 @@
+{
+  "education": [
+    {
+      "name": "ZESPÓŁ SZKÓŁ IM. KS. STANISŁAWA STASZICA W TARNOBRZEGU",
+      "href": "https://www.digipen.edu.sg",
+      "logo": "/img/zsgornik.webp",
+      "positions": [
+        {
+          "title": "Technik Programista",
+          "start": "2023",
+          "end": "2028"
+        }
+      ]
+    }
+  ]
+}

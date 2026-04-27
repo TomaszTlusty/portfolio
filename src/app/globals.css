@@ -1,5 +1,11 @@
 @import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+@import "@radix-ui/themes/styles.css";
 
 @theme {
     --color-mintcream: #edf4ed;
 }
+
+
+
