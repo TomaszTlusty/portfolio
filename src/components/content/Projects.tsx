@@ -11,7 +11,7 @@ const filteredProjectsList = ProjectsList.slice(0, 2)
 const Projects = () => {
     return (
             <section className={"mx-auto mt-16 w-full max-w-xl sm:max-w-3xl"}>
-                <div className="flex flex-row items-center justify-between mb-8 ">
+                <div className="flex flex-row items-center justify-between mb-8 mx-4 sm:mx-0">
                     <h3 className={"font-bold text-2xl"}>Projekty</h3>
                     <Link href={"/projects"} className={"text-sm hover:translate-x-0.5 hover:-translate-y-0.5 hover:text-black text-black/75 transition-all duration-300"}>
                         <span className={"sm:flex hidden"}>Zobacz więcej projektów</span>
