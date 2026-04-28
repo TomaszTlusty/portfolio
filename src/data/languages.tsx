@@ -23,7 +23,7 @@ export const languages: LanguageType[] = [
         icon: <SiPhp className={"text-xs"}/>
     },
     {
-        title: "Java",
+        title: "Java 21+",
         icon: <FaJava className="text-xs" />,
     },
     {

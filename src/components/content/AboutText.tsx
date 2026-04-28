@@ -8,11 +8,15 @@ const AboutText = () => {
             </h2>
 
             <p className={"mt-6 font-medium leading-relaxed text-black"}>
-                Zajmuję się budowaniem rzeczy — od elektroniki na ESP32 i projektowania płytek PCB, po druk 3D i aplikacje webowe. Interesuję się cyberbezpieczeństwem, bo lubię wiedzieć, jak systemy działają od środka
+                Zajmuję się projektowaniem i budowaniem systemów od podstaw — od elektroniki opartej na ESP32 i projektowania PCB, przez druk 3D, aż po aplikacje webowe. Łączę świat hardware i software, tworząc rozwiązania, które działają zarówno fizycznie, jak i cyfrowo.
             </p>
 
             <p className={"mt-6 font-medium leading-relaxed text-black"}>
-                W moich projektach używam głównie TypeScripta, Next.js i Tailwind CSS. Poza tym gram w szachy i trenuję kickboxing
+                Na co dzień pracuję głównie w TypeScript, Next.js i Tailwind CSS, rozwijając nowoczesne aplikacje webowe. Interesuję się również cyberbezpieczeństwem, ponieważ lubię rozumieć, jak systemy działają „od środka”, a nie tylko jak wyglądają na powierzchni.
+            </p>
+
+            <p className={"mt-6 font-medium leading-relaxed text-black"}>
+                Poza technologią gram w szachy i trenuję kickbox
             </p>
         </section>
     );

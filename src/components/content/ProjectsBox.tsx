@@ -8,7 +8,7 @@ import UserLink from "@/components/ui/UserLink";
 const Projects = () => {
     return (
         <section className={"mx-auto mt-16 w-full max-w-xl sm:max-w-3xl"}>
-            <div className="flex flex-row items-center justify-between mb-8 ml-4 mr-4">
+            <div className="flex flex-row items-center justify-between mb-8 mx-4 sm:mx-0">
                 <h1 className={"font-bold text-2xl text-center"}>Projekty</h1>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mx-auto sm:items-start items-center">
@@ -28,7 +28,9 @@ const Projects = () => {
 
                         <div className={"flex flex-row items-center gap-4 mt-2"}>
                             <UserLink title={"Github"} href={project.github} icon={<FaGithub />} />
-                            <UserLink title={"Link"} href={project.demo} icon={<FaLink />} />
+                            {project.demo !== "false" && (
+                                <UserLink title="Link" href={project.demo} icon={<FaLink />} />
+                            )}
                         </div>
                     </article>
                 ))}
