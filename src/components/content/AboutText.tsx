@@ -8,18 +8,23 @@ const AboutText = () => {
             </h2>
 
             <p className={"mt-6 font-medium leading-relaxed text-black"}>
-                Zajmuję się projektowaniem i budowaniem systemów od podstaw — od elektroniki opartej na ESP32 i projektowania PCB, przez druk 3D, aż po aplikacje webowe. Łączę świat hardware i software, tworząc rozwiązania, które działają zarówno fizycznie, jak i cyfrowo.
+                Zajmuję się budowaniem rzeczy — od elektroniki na ESP32 i projektowania płytek PCB, po druk 3D i aplikacje webowe. Interesuję się cyberbezpieczeństwem, bo lubię rozumieć, jak systemy działają od środka i znajdować ich słabe punkty.
             </p>
 
             <p className={"mt-6 font-medium leading-relaxed text-black"}>
-                Na co dzień pracuję głównie w TypeScript, Next.js i Tailwind CSS, rozwijając nowoczesne aplikacje webowe. Interesuję się również cyberbezpieczeństwem, ponieważ lubię rozumieć, jak systemy działają „od środka”, a nie tylko jak wyglądają na powierzchni.
-            </p>
+                W moich projektach używam głównie TypeScripta, Next.js i Tailwind CSS. Aktualnie siedzę na Fedorze 43 KDE Plasma, po dwóch latach używania Arch Linuxa z Hyprlandem.</p>
 
             <p className={"mt-6 font-medium leading-relaxed text-black"}>
-                Poza technologią gram w szachy i trenuję kickbox
+                Poza tym gram w szachy, trenuję kickboxing i czytam o inżynierii oraz fizyce<br/>
+                <span className={"mt-2"}>(Andrzej Dragan, GoF, Harvard Business Review)</span>
             </p>
         </section>
     );
 };
 
 export default AboutText;
+
+
+
+
+
