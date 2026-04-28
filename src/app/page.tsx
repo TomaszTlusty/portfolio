@@ -13,7 +13,6 @@ export default function Home(){
           <Projects/>
           <TechStack/>
           <HackTimeSpend/>
-          <Footer/>
       </main>
   )
 }

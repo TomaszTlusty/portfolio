@@ -7,7 +7,7 @@ import {LinksType} from "@/types/LinksType";
 export default function Hero() {
     return (
 
-        <section className="hero w-full sm:max-w-3xl max-w-lg gap-6 mx-auto justify-center sm:items-center mt-16 flex flex-col-reverse sm:flex-row ">
+        <section className="hero w-full sm:max-w-3xl max-w-lg gap-6 mx-auto justify-center sm:items-center mt-8 flex flex-col-reverse sm:flex-row ">
             <div className={"sm:w-[50%] sm:max-w-[50%] flex flex-col mt-4 mx-auto sm:mr-auto sm:ml-4"}>
                 <h1 className="text-3xl font-bold tracking-tight text-black">
                     Tomasz Tłusty

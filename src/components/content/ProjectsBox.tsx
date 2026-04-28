@@ -9,7 +9,7 @@ const Projects = () => {
     return (
         <section className={"mx-auto mt-16 w-full max-w-xl sm:max-w-3xl"}>
             <div className="flex flex-row items-center justify-between mb-8 ml-4 mr-4">
-                <h3 className={"font-semibold text-2xl"}>Projekty</h3>
+                <h1 className={"font-bold text-2xl text-center"}>Projekty</h1>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mx-auto sm:items-start items-center">
                 {ProjectsList.map((project) => (

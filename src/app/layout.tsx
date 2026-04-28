@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/base/Header";
 import GridPattern from "@/components/ui/grid-pattern";
 import { Theme } from "@radix-ui/themes";
+import Footer from "@/components/base/Footer";
 
 
 
@@ -38,6 +39,7 @@ export default function RootLayout({
           <GridPattern />
           <Navbar />
           {children}
+          <Footer/>
         </Theme>
       </body>
     </html>
