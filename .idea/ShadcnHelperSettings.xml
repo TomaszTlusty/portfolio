@@ -2178,6 +2178,18 @@
         <option name="homepage" value="https://devl.dev" />
         <option name="urlTemplate" value="https://devl.dev/r/{name}.json" />
       </RegistryConfigState>
+      <RegistryConfigState>
+        <option name="id" value="central-shieldcn" />
+        <option name="name" value="Shieldcn" />
+        <option name="namespace" value="@shieldcn" />
+        <option name="baseUrl" value="https://shieldcn.dev/r" />
+        <option name="stylePath" value="/{name}.json" />
+        <option name="type" value="community" />
+        <option name="enabled" value="false" />
+        <option name="description" value="Beautiful README badges as a service. A shields.io alternative with the visual quality of shadcn/ui. Drop-in SVG badge components for npm, GitHub, Discord, and more." />
+        <option name="homepage" value="https://shieldcn.dev" />
+        <option name="urlTemplate" value="https://shieldcn.dev/r/{name}.json" />
+      </RegistryConfigState>
     </registryConfigs>
   </component>
 </project>

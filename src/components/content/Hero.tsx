@@ -13,9 +13,9 @@ export default function Hero() {
                     Tomasz Tłusty
                 </h1>
 
-                <h2 className="mt-2  text-sm font-semibold text-black">
+                <h3 className="mt-2  text-sm font-semibold text-black">
                     Web Developer | Tarnobrzeg 🇵🇱
-                </h2>
+                </h3>
 
                 <p className="mt-4 font-medium leading-relaxed text-black sm:w-full max-w-xl">
                     Projektuję. Koduję. Wdrażam.
