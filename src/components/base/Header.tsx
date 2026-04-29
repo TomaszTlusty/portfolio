@@ -4,8 +4,9 @@ import React, { useState, useRef, useEffect } from "react"
 import { TbTargetArrow } from "react-icons/tb"
 import { LuBookOpen } from "react-icons/lu"
 import { IoTerminalOutline } from "react-icons/io5"
-import { useTranslations, useLocale } from 'next-intl';
-import { Link, useRouter, usePathname } from '@/i18n/navigation';
+import { useTranslations} from 'next-intl';
+import { Link } from '@/i18n/navigation';
+import LanguageBtn from "@/components/base/LanguageBtn";
 
 type NavItemConfig = {
   icon: React.ReactNode
@@ -21,9 +22,6 @@ const navItemsConfig: NavItemConfig[] = [
 
 export function Navbar() {
   const t = useTranslations('nav');
-  const locale = useLocale();
-  const router = useRouter();
-  const pathname = usePathname();
 
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
   const navRef = useRef<HTMLElement>(null)
@@ -50,9 +48,7 @@ export function Navbar() {
     }, 150)
   }
 
-  function toggleLocale() {
-    router.replace(pathname, { locale: locale === 'pl' ? 'en' : 'pl' });
-  }
+
 
   return (
     <header ref={navRef} className="mx-auto mt-8 z-50 w-[100%-2rem] max-w-md">
@@ -82,13 +78,7 @@ export function Navbar() {
               </li>
             ))}
           </ul>
-          <button
-            onClick={toggleLocale}
-            className="ml-3 text-[0.75rem] font-semibold tracking-widest text-black/40 hover:text-black transition-colors duration-200 px-2 py-1 rounded-lg"
-            title={locale === 'pl' ? 'Switch to English' : 'Przełącz na polski'}
-          >
-            {locale === 'pl' ? 'EN' : 'PL'}
-          </button>
+          <LanguageBtn/>
         </div>
       </nav>
     </header>
