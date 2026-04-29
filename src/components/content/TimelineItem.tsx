@@ -32,7 +32,7 @@ export default function TimelineItem({ experience }: Props) {
       </Link>
       <div className="flex flex-1 flex-col justify-start gap-2">
         <Link href={href} target="_blank" rel="noreferrer" className="w-fit">
-          <h2 className="text-base font-semibold leading-none">{name}</h2>
+          <h3 className="text-base font-semibold leading-none">{name}</h3>
         </Link>
         <div className="flex flex-col gap-2">
           {positions.map((position) => (
