@@ -1,0 +1,16 @@
+{
+  "education": [
+    {
+      "name": "ZESPÓŁ SZKÓŁ IM. KS. STANISŁAWA STASZICA W TARNOBRZEGU",
+      "href": "https://zsgornik.pl",
+      "logo": "/img/tab/zsgornik.webp",
+      "positions": [
+        {
+          "title": "Computer Science Technician",
+          "start": "2023",
+          "end": "2028"
+        }
+      ]
+    }
+  ]
+}

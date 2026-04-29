@@ -3,12 +3,14 @@ import Link from "next/link";
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/Avatar";
 import { Badge } from "../ui/Badge";
 import Icon from "./Icon";
+import { getTranslations } from 'next-intl/server';
 
 interface Props {
   experience: Experience;
 }
 
-export default function TimelineItem({ experience }: Props) {
+export default async function TimelineItem({ experience }: Props) {
+  const t = await getTranslations('timeline');
   const { name, href, logo, positions } = experience;
 
   return (
@@ -44,16 +46,13 @@ export default function TimelineItem({ experience }: Props) {
                 <time className="whitespace-nowrap pr-8 text-xs tabular-nums text-muted-foreground">
                   <span>{position.start}</span>
                   <span>{" - "}</span>
-                  <span>{position.end ?? "Present"}</span>
+                  <span>{position.end ?? t('present')}</span>
                 </time>
               </div>
               {position.description && (
                 <ul className="ml-4 mt-2 list-outside list-disc">
                   {position.description.map((desc, i) => (
-                    <li
-                      key={i}
-                      className="prose pr-8 text-sm dark:prose-invert"
-                    >
+                    <li key={i} className="prose pr-8 text-sm dark:prose-invert">
                       {desc}
                     </li>
                   ))}
@@ -62,7 +61,7 @@ export default function TimelineItem({ experience }: Props) {
               {position.links && position.links.length > 0 && (
                 <div className="mt-2 flex flex-row flex-wrap items-start gap-2">
                   {position.links.map((link) => (
-                    <Link href={link.href} key={link.href} target={"_blank"}>
+                    <Link href={link.href} key={link.href} target="_blank">
                       <Badge title={link.name} className="flex gap-2">
                         <Icon
                           name={link.icon}

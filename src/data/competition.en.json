@@ -1,0 +1,92 @@
+{
+  "career": [
+    {
+      "name": "Gigathon",
+      "href": "https://www.gigathon.pl/",
+      "logo": "/img/tab/Gigathon.webp",
+      "positions": [
+        {
+          "title": "#7 finalist",
+          "start": "06.2025",
+          "end": "1 day",
+          "description": [
+            "#7 place in a national Python algorithm competition"
+          ],
+          "links": [
+            {
+              "name": "Project",
+              "href": "https://github.com/TomaszTlusty/KlondikeSolitaireCLI",
+              "icon": "globe"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Samsung Solve for Tomorrow",
+      "href": "https://solvefortomorrow.pl/o-programie/",
+      "logo": "/img/tab/SFT.webp",
+      "positions": [
+        {
+          "title": "semifinalist",
+          "start": "12.2025",
+          "end": "02.2026",
+          "description": [
+            "Participated in the Samsung Solve for Tomorrow semifinal – developing a project addressing real challenges in cybercrime and digital security."
+          ],
+          "links": [
+            {
+              "name": "Video",
+              "href": "https://www.youtube.com/watch?v=-f070q0ycuI",
+              "icon": "globe"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Google DeepMind x AI Tinkerers Hackathon - Warsaw",
+      "href": "https://aitinkerers.org/",
+      "logo": "/img/tab/aitinkerers.webp",
+      "positions": [
+        {
+          "title": "Participant",
+          "start": "03.2026",
+          "end": "1 day",
+          "description": [
+            "Building an app integrating VAPI + GEMINI 3.1 flash"
+          ],
+          "links": [
+            {
+              "name": "Video",
+              "href": "https://www.youtube.com/watch?v=YMm5TVMW_j4",
+              "icon": "globe"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TechQuest Hackathon - Leżajsk",
+      "href": "https://www.techquest.zst.lezajsk.pl/",
+      "logo": "/img/tab/lezajsk.webp",
+      "positions": [
+        {
+          "title": "#5 place",
+          "start": "03.2026",
+          "end": "2 days",
+          "description": [
+            "Building the Event Sponsor Application"
+          ],
+          "links": [
+            {
+              "name": "Video",
+              "href": "https://youtu.be/QGSleg4mf80",
+              "icon": "globe"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "portfolio": "portfolio",
+    "projects": "projekty",
+    "about": "o mnie"
+  },
+  "hero": {
+    "tagline": "Projektuję. Koduję. Wdrażam.",
+    "role": "Web Developer | Tarnobrzeg 🇵🇱",
+    "selfieAlt": "Selfie Tomasza"
+  },
+  "links": {
+    "contact": "Kontakt"
+  },
+  "experience": {
+    "work": "Doświadczenie",
+    "competition": "Konkursy",
+    "education": "Wykształcenie"
+  },
+  "projects": {
+    "title": "Projekty",
+    "seeMore": "Zobacz więcej projektów"
+  },
+  "techStack": {
+    "title": "Technologie"
+  },
+  "about": {
+    "title": "O Mnie",
+    "p1": "Zajmuję się budowaniem rzeczy — od elektroniki na ESP32 i projektowania płytek PCB, po druk 3D i aplikacje webowe. Interesuję się cyberbezpieczeństwem, bo lubię rozumieć, jak systemy działają od środka i znajdować ich słabe punkty.",
+    "p2": "W moich projektach używam głównie TypeScripta, Next.js i Tailwind CSS. Aktualnie siedzę na Fedorze 43 KDE Plasma, po dwóch latach używania Arch Linuxa z Hyprlandem.",
+    "p3": "Poza tym gram w szachy, trenuję kickboxing i czytam o inżynierii oraz fizyce",
+    "p3books": "(Andrzej Dragan, GoF, Harvard Business Review)"
+  },
+  "contact": {
+    "title": "Informacje Kontaktowe",
+    "phone": "tel.",
+    "email": "email:"
+  },
+  "timeline": {
+    "present": "Obecnie"
+  },
+  "metadata": {
+    "description": "Portfolio Tomasza Tłustego – projekty webowe, cyberbezpieczeństwo, hardware (ESP32, PCB), aplikacje Next.js i TypeScript.",
+    "ogDescription": "Projekty webowe, cyberbezpieczeństwo i hardware. Zobacz moje realizacje.",
+    "twitterDescription": "Projekty webowe, cyberbezpieczeństwo i hardware."
+  }
+}

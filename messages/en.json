@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "portfolio": "portfolio",
+    "projects": "projects",
+    "about": "about me"
+  },
+  "hero": {
+    "tagline": "Design. Code. Deploy.",
+    "role": "Web Developer | Tarnobrzeg 🇵🇱",
+    "selfieAlt": "Tomasz's selfie"
+  },
+  "links": {
+    "contact": "Contact"
+  },
+  "experience": {
+    "work": "Experience",
+    "competition": "Competitions",
+    "education": "Education"
+  },
+  "projects": {
+    "title": "Projects",
+    "seeMore": "See more projects"
+  },
+  "techStack": {
+    "title": "Technologies"
+  },
+  "about": {
+    "title": "About Me",
+    "p1": "I build things — from electronics with ESP32 and PCB design to 3D printing and web apps. I'm interested in cybersecurity because I like understanding how systems work from the inside and finding their weak spots.",
+    "p2": "In my projects I mainly use TypeScript, Next.js and Tailwind CSS. I'm currently on Fedora 43 KDE Plasma, after two years of using Arch Linux with Hyprland.",
+    "p3": "Other than that, I play chess, train kickboxing and read about engineering and physics",
+    "p3books": "(Andrzej Dragan, GoF, Harvard Business Review)"
+  },
+  "contact": {
+    "title": "Contact Information",
+    "phone": "tel.",
+    "email": "email:"
+  },
+  "timeline": {
+    "present": "Present"
+  },
+  "metadata": {
+    "description": "Portfolio of Tomasz Tłusty – web projects, cybersecurity, hardware (ESP32, PCB), Next.js and TypeScript apps.",
+    "ogDescription": "Web projects, cybersecurity and hardware. See my work.",
+    "twitterDescription": "Web projects, cybersecurity and hardware."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "career": [
+    {
+      "name": "Wasys.pl",
+      "href": "https://wasys.pl/",
+      "logo": "/img/tab/Wasys.webp",
+      "positions": [
+        {
+          "title": "Software Engineering Intern / Frontend Developer",
+          "start": "04.2026",
+          "end": "05.2026",
+          "description": [
+            "Built and deployed responsive web interfaces using Next.js, TypeScript, Tailwind CSS and the Motion library. Managed the entire deployment process with Vercel, used Figma for wireframing and Git for version control."
+          ]
+        }
+      ]
+    }
+  ]
+}
