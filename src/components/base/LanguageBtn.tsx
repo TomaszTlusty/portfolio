@@ -19,10 +19,10 @@ const LanguageBtn = () => {
             <div className="w-px h-7 bg-black/10 mx-3" />
             <div
                 onClick={toggleLocale}
-                className="relative flex items-center bg-white border border-black/10 rounded-full p-[3px] cursor-pointer"
+                className="relative flex items-center bg-white border border-black/10 rounded-3xl p-[3px] cursor-pointer"
             >
                 <motion.div
-                    className="absolute top-[3px] bottom-[3px] w-[40px] bg-black rounded-full"
+                    className="absolute top-[3px] bottom-[3px] w-[40px] bg-black rounded-3xl"
                     animate={{ x: locale === 'en' ? 40 : 0 }}
                     transition={{ type: 'spring', stiffness: 400, damping: 30 }}
                 />

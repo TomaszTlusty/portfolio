@@ -8,6 +8,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
 import { routing, type Locale } from '@/i18n/routing';
 import { notFound } from 'next/navigation';
+import { Space_Grotesk } from 'next/font/google'
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

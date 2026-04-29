@@ -18,18 +18,6 @@ const iconLink = z.object({
   href: z.string().url(),
   icon: z.custom<keyof typeof dynamicIconImports>(),
 });
-export type IconLink = z.infer<typeof iconLink>;
-
-const project = z.object({
-  name: z.string(),
-  description: z.string(),
-  href: z.string().url().optional(),
-  image: z.string().optional(),
-  tags: z.array(z.string()),
-  links: z.array(iconLink),
-});
-export const projectSchema = z.object({ projects: z.array(project) });
-export type Project = z.infer<typeof project>;
 
 const experiencePosition = z.object({
   title: z.string(),
@@ -38,7 +26,6 @@ const experiencePosition = z.object({
   description: z.array(z.string()).optional(),
   links: z.array(iconLink).optional(),
 });
-export type ExperiencePosition = z.infer<typeof experiencePosition>;
 
 const experience = z.object({
   name: z.string(),
@@ -50,4 +37,3 @@ export type Experience = z.infer<typeof experience>;
 
 export const careerSchema = z.object({ career: z.array(experience) });
 export const educationSchema = z.object({ education: z.array(experience) });
-export const socialSchema = z.object({ socials: z.array(iconLink) });

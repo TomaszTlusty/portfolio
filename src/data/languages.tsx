@@ -2,10 +2,9 @@ import { LanguageType } from "@/types/LanguageType";
 import {
     SiTypescript,
     SiPython,
-    SiCplusplus,
     SiNextdotjs,
     SiTailwindcss,
-    SiAssemblyscript, SiPhp,
+    SiPhp, SiWordpress, SiGit, SiLinux, SiPostgresql, SiHtml5, SiCss,
 } from "react-icons/si";
 import {FaJava} from "react-icons/fa";
 
@@ -17,6 +16,14 @@ export const languages: LanguageType[] = [
     {
         title: "Next.js",
         icon: <SiNextdotjs className="text-xs" />,
+    },
+    {
+        title: "Tailwind",
+        icon: <SiTailwindcss className="text-xs" />,
+    },
+    {
+        title: "Wordpress",
+        icon: <SiWordpress className="text-xs" />,
     },
     {
         title: "PHP",
@@ -31,15 +38,23 @@ export const languages: LanguageType[] = [
         icon: <SiPython className="text-xs" />,
     },
     {
-        title: "C++",
-        icon: <SiCplusplus className="text-xs" />,
+        title: "Git",
+        icon: <SiGit className="text-xs" />,
     },
     {
-        title: "ASM",
-        icon: <SiAssemblyscript className="text-xs" />,
+        title: "Linux",
+        icon: <SiLinux className="text-xs" />,
     },
     {
-        title: "Tailwind CSS",
-        icon: <SiTailwindcss className="text-xs" />,
+        title: "PostgreSQL",
+        icon: <SiPostgresql className="text-xs" />,
+    },
+    {
+        title: "HTML5",
+        icon: <SiHtml5 className="text-xs" />,
+    },
+    {
+        title: "CSS3",
+        icon: <SiCss className="text-xs" />,
     },
 ];
