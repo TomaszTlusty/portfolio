@@ -15,7 +15,7 @@ const LanguageBtn = () => {
     }
 
     return (
-        <div className="flex items-center ml-1">
+        <div className="items-center ml-1 hidden sm:flex">
             <div className="w-px h-7 bg-black/10 mx-3" />
             <div
                 onClick={toggleLocale}

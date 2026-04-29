@@ -71,7 +71,7 @@ export function Navbar() {
                   href={href}
                 >
                   <span aria-hidden="true">{icon}</span>
-                  <span className="text-[0.8rem] font-light tracking-widest">
+                  <span className="text-center text-[0.7rem] font-light tracking-widest">
                     {t(labelKey as Parameters<typeof t>[0])}
                   </span>
                 </Link>
