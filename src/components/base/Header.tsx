@@ -78,7 +78,9 @@ export function Navbar() {
               </li>
             ))}
           </ul>
+          <span className={"hidden sm:flex"}>
           <LanguageBtn/>
+          </span>
         </div>
       </nav>
     </header>

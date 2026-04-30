@@ -15,26 +15,26 @@ const LanguageBtn = () => {
     }
 
     return (
-        <div className="items-center ml-1 hidden sm:flex">
-            <div className="w-px h-7 bg-black/10 mx-3" />
+        <div className="flex items-center ml-1">
+            <div className="w-px h-5 bg-black/10 mx-2" />
             <div
                 onClick={toggleLocale}
-                className="relative flex items-center bg-white border border-black/10 rounded-3xl p-[3px] cursor-pointer"
+                className="relative flex items-center bg-white border border-black/10 rounded-3xl p-0.5 cursor-pointer"
             >
                 <motion.div
-                    className="absolute top-[3px] bottom-[3px] w-[40px] bg-black rounded-3xl"
-                    animate={{ x: locale === 'en' ? 40 : 0 }}
+                    className="absolute top-0.5 bottom-0.5 w-7 bg-black rounded-3xl"
+                    animate={{ x: locale === 'en' ? 28 : 0 }}
                     transition={{ type: 'spring', stiffness: 400, damping: 30 }}
                 />
                 {['PL', 'EN'].map((lang) => (
                     <span
                         key={lang}
-                        className={`relative z-10 w-[40px] text-center text-[0.7rem] font-semibold tracking-widest py-1 transition-colors duration-200 select-none ${
+                        className={`relative z-10 w-7 text-center text-[0.6rem] font-semibold tracking-widest py-0.5 transition-colors duration-200 select-none ${
                             locale === lang.toLowerCase() ? 'text-white' : 'text-black/35'
                         }`}
                     >
-            {lang}
-          </span>
+                    {lang}
+                </span>
                 ))}
             </div>
         </div>

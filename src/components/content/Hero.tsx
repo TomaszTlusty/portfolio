@@ -4,6 +4,7 @@ import UserLink from "@/components/ui/UserLink";
 import { LinksType } from "@/types/LinksType";
 import { getTranslations, getLocale } from 'next-intl/server';
 import HeroImage from '@/components/content/HeroImage';
+import LanguageBtn from "@/components/base/LanguageBtn";
 
 export default async function Hero() {
   const t = await getTranslations('hero');
@@ -44,14 +45,18 @@ export default async function Hero() {
             ))}
           </div>
 
-          <div className="mt-5 flex items-center gap-2 w-fit">
-          <span className="relative flex h-2.5 w-2.5">
-            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-            <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-green-500"></span>
-          </span>
+          <div className="mt-5 flex items-center gap-3 w-fit">
+            <span className="relative flex h-2.5 w-2.5">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-green-500"></span>
+            </span>
             <span className="text-xs font-medium text-black/60">
-            {locale === 'en' ? 'Open to work' : 'Otwarty na oferty'}
-          </span>
+              {locale === 'en' ? 'Open to work' : 'Otwarty na oferty'}
+            </span>
+
+            <span className="sm:hidden">
+              <LanguageBtn />
+            </span>
           </div>
         </div>
 
