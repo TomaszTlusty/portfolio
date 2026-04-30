@@ -2,7 +2,7 @@
 import { Download } from "lucide-react"
 import { useState } from "react"
 
-export default function CVPageClient({ tagline }: { tagline: string }) {
+export default function CVBox() {
     const [lang, setLang] = useState<"en" | "pl">("en")
     const file = lang === "en" ? "cv_tomasz_tlusty_en_1.pdf" : "cv_tomasz_tlusty_pl_1.pdf"
     const dlName = lang === "en" ? "Tomasz_Tlusty_CV.pdf" : "Tomasz_Tlusty_CV_PL.pdf"
@@ -15,7 +15,6 @@ export default function CVPageClient({ tagline }: { tagline: string }) {
                     <h1 className="text-3xl font-bold tracking-tight text-black">
                         Curriculum Vitae
                     </h1>
-                    <p className="text-sm font-medium text-black/45">{tagline}</p>
                 </div>
 
                 <div className="w-full rounded-3xl overflow-hidden border border-black/10 bg-white">
