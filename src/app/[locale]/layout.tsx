@@ -9,6 +9,7 @@ import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server
 import { routing, type Locale } from '@/i18n/routing';
 import { notFound } from 'next/navigation';
 import ConsoleEasterEgg from "@/components/content/ConsoleEasterEgg";
+import JsonLd from "@/components/base/JsonLd";
 
 const jakartaSans = Plus_Jakarta_Sans({
   variable: "--font-jakarta-sans",
@@ -119,6 +120,7 @@ export default async function LocaleLayout(props: LayoutProps<'/[locale]'>) {
           suppressHydrationWarning
       >
       <body className="min-h-full flex flex-col bg-mintcream text-black font-sans">
+      <JsonLd />
       <NextIntlClientProvider messages={messages}>
         <Theme style={{ fontFamily: 'var(--font-jakarta-sans)' }}>
           <ConsoleEasterEgg />
