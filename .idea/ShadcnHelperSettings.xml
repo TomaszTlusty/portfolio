@@ -2214,6 +2214,18 @@
         <option name="homepage" value="https://deltacomponents.dev" />
         <option name="urlTemplate" value="https://deltacomponents.dev/r/{name}.json" />
       </RegistryConfigState>
+      <RegistryConfigState>
+        <option name="id" value="central-evilbuttons" />
+        <option name="name" value="Evilbuttons" />
+        <option name="namespace" value="@evilbuttons" />
+        <option name="baseUrl" value="https://evilbuttons.radiumcoders.com/r" />
+        <option name="stylePath" value="/{name}.json" />
+        <option name="type" value="community" />
+        <option name="enabled" value="false" />
+        <option name="description" value="A shadcn/ui registry featuring a collection of animated buttons built with Motion. Each component is designed to add punchy, interactive feedback to your UI with minimal setup." />
+        <option name="homepage" value="https://evilbuttons.radiumcoders.com/docs" />
+        <option name="urlTemplate" value="https://evilbuttons.radiumcoders.com/r/{name}.json" />
+      </RegistryConfigState>
     </registryConfigs>
   </component>
 </project>
