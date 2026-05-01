@@ -5,10 +5,10 @@ export default function JsonLd() {
         "@type": "Person",
         "name": "Tomasz Tłusty",
         "url": "https://tlusty.dev",
-        "image": "https://tlusty.dev/tlusty-avatar.png",
         "sameAs": [
             "https://github.com/TomaszTlusty",
             "https://www.linkedin.com/in/tlusty/",
+            "https://x.com/TlustyTomasz"
         ],
         "jobTitle": "Full-Stack Developer & Hardware Maker",
         "description": "Full-Stack Developer specializing in Next.js, TypeScript, and embedded hardware (ESP32, PCB design). Interested in cybersecurity.",
