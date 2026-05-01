@@ -20,14 +20,14 @@ export default function ConsoleEasterEgg() {
         console.log(
             '%cHej, widzę że lubisz grzebać w kodzie! 👋\n' +
             'Kod źródłowy: https://github.com/TomaszTlusty/portfolio\n' +
-            'Napisz do mnie: tomek.tlustyxd@gmail.com',
+            'Napisz do mnie: kontakt@tlusty.dev',
             'color: #22c55e; font-size: 13px; font-family: monospace;'
         )
         console.log("---------------------------------------------------------------")
         console.log(
             '%cHey, I see you like digging through code! 👋\n' +
             'Source code: https://github.com/TomaszTlusty/portfolio\n' +
-            'Get in touch: tomek.tlustyxd@gmail.com',
+            'Get in touch: kontakt@tlusty.dev',
             'color: #22c55e; font-size: 13px; font-family: monospace;'
         )
         console.log("---------------------------------------------------------------")
