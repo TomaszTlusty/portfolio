@@ -9,7 +9,7 @@ const UserLink = ({href,title,icon}: LinksType) => {
         <div>
             <Link
                 href={href}
-                target={title === "Kontakt" ? "_blank" : undefined}
+                target={title === "CV" ? "_self" : "_blank"}
                 className="flex items-center text-sm gap-2 font-semibold hover:text-black w-fit bg-mintcream/80 text-black/80 rounded-3xl py-0.5 px-3 hover:translate-x-1 hover:-translate-y-0.5 transition-all duration-300 backdrop-blur-sm"
             >
                 <span>{title}</span>
