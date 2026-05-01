@@ -52,6 +52,18 @@ export async function generateMetadata(
         ? ["Tomasz Tłusty", "portfolio", "full-stack developer", "Next.js", "TypeScript", "ESP32", "PCB", "cybersecurity", "Poland developer"]
         : ["Tomasz Tłusty", "portfolio", "programista", "Next.js", "TypeScript", "ESP32", "PCB", "cyberbezpieczeństwo", "Polska"],
 
+    icons: {
+      icon: [
+        { url: "/favicon.ico", sizes: "any" },
+        { url: "/favicon.svg", type: "image/svg+xml" },
+        { url: "/favicon-96x96.png", type: "image/png", sizes: "96x96" },
+      ],
+      apple: [
+        { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+      ],
+    },
+    manifest: "/site.webmanifest",
+
     alternates: {
       canonical: locale === 'pl' ? '/' : `/${locale}`,
       languages: {
