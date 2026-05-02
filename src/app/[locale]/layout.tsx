@@ -51,15 +51,6 @@ export async function generateMetadata(
     keywords: locale === 'en'
         ? ["Tomasz Tłusty", "portfolio", "full-stack developer", "Next.js", "TypeScript", "ESP32", "PCB", "cybersecurity", "Poland developer"]
         : ["Tomasz Tłusty", "portfolio", "programista", "Next.js", "TypeScript", "ESP32", "PCB", "cyberbezpieczeństwo", "Polska"],
-    alternates: {
-      canonical: locale === 'pl' ? '/' : `/${locale}`,
-      languages: {
-        'pl-PL': '/',
-        'en-US': '/en',
-        'x-default': '/',
-      },
-    },
-
     openGraph: {
       description: t('ogDescription'),
       url: locale === 'pl' ? "https://tlusty.dev" : `https://tlusty.dev/${locale}`,
