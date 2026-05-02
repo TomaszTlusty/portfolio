@@ -1,12 +1,10 @@
 "use client"
 
 import React, { useState, useRef, useEffect } from "react"
-import { TbTargetArrow } from "react-icons/tb"
-import { LuBookOpen } from "react-icons/lu"
-import { IoTerminalOutline } from "react-icons/io5"
 import { useTranslations} from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import LanguageBtn from "@/components/base/LanguageBtn";
+import {FaBriefcase, FaCode, FaUser} from "react-icons/fa6";
 
 type NavItemConfig = {
   icon: React.ReactNode
@@ -15,9 +13,9 @@ type NavItemConfig = {
 }
 
 const navItemsConfig: NavItemConfig[] = [
-  { icon: <LuBookOpen size={24} strokeWidth={1.25} />, labelKey: "portfolio", href: "/" },
-  { icon: <IoTerminalOutline size={24} strokeWidth={1.25} />, labelKey: "projects", href: "/projects" },
-  { icon: <TbTargetArrow size={24} strokeWidth={1.25} />, labelKey: "about", href: "/about" },
+  { icon: <FaBriefcase size={24} strokeWidth={1.25} />, labelKey: "portfolio", href: "/" },
+  { icon: <FaCode size={24} strokeWidth={1.25} />, labelKey: "projects", href: "/projects" },
+  { icon: <FaUser size={24} strokeWidth={1.25} />, labelKey: "about", href: "/about" },
 ]
 
 export function Navbar() {
