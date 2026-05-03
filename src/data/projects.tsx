@@ -24,13 +24,6 @@ export const ProjectsList: ProjectType[] = [
     href: "/img/projects/KRC20.webp",
   },
   {
-    title: "Java Toolbox",
-    github: "https://github.com/TomaszTlusty/JavaToolbox",
-    demo: "https://github.com/TomaszTlusty/JavaToolbox/releases/tag/v1",
-    description: "JavaToolbox for cybersecurity",
-    href: "/img/projects/toolbox.webp",
-  },
-  {
     title: "Pasjans CLI",
     github: "https://github.com/TomaszTlusty/KlondikeSolitaireCLI",
     demo: "false",
@@ -68,13 +61,6 @@ export const ProjectsListEn: ProjectType[] = [
     demo: "false",
     description: "App for finding Kaspa cryptocurrency token wallets",
     href: "/img/projects/KRC20.webp",
-  },
-  {
-    title: "Java Toolbox",
-    github: "https://github.com/TomaszTlusty/JavaToolbox",
-    demo: "https://github.com/TomaszTlusty/JavaToolbox/releases/tag/v1",
-    description: "JavaToolbox for cybersecurity",
-    href: "/img/projects/toolbox.webp",
   },
   {
     title: "Pasjans CLI",
