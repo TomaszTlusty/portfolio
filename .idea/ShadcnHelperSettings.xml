@@ -2226,6 +2226,42 @@
         <option name="homepage" value="https://evilbuttons.radiumcoders.com/docs" />
         <option name="urlTemplate" value="https://evilbuttons.radiumcoders.com/r/{name}.json" />
       </RegistryConfigState>
+      <RegistryConfigState>
+        <option name="id" value="central-cognicatch" />
+        <option name="name" value="Cognicatch" />
+        <option name="namespace" value="@cognicatch" />
+        <option name="baseUrl" value="https://cognicatch.dev/registry" />
+        <option name="stylePath" value="/{name}.json" />
+        <option name="type" value="community" />
+        <option name="enabled" value="false" />
+        <option name="description" value="Adaptive Error Boundaries and graceful fallback UIs (Banners, Modals, Toasts)." />
+        <option name="homepage" value="https://cognicatch.dev" />
+        <option name="urlTemplate" value="https://cognicatch.dev/registry/{name}.json" />
+      </RegistryConfigState>
+      <RegistryConfigState>
+        <option name="id" value="central-indiacn" />
+        <option name="name" value="Indiacn" />
+        <option name="namespace" value="@indiacn" />
+        <option name="baseUrl" value="https://indiacn.in/r" />
+        <option name="stylePath" value="/{name}.json" />
+        <option name="type" value="community" />
+        <option name="enabled" value="false" />
+        <option name="description" value="UX4G 2.0 design system for India — many accessible React components and an 8-color theme preset for native apps." />
+        <option name="homepage" value="https://indiacn.in" />
+        <option name="urlTemplate" value="https://indiacn.in/r/{name}.json" />
+      </RegistryConfigState>
+      <RegistryConfigState>
+        <option name="id" value="central-stepper" />
+        <option name="name" value="Stepper" />
+        <option name="namespace" value="@stepper" />
+        <option name="baseUrl" value="https://francozeta-stepper.vercel.app" />
+        <option name="stylePath" value="/{name}.json" />
+        <option name="type" value="community" />
+        <option name="enabled" value="false" />
+        <option name="description" value="A modern, accessible and composable Stepper component for React and Tailwind CSS. Built for shadcn/ui-style workflows with registry-first distribution." />
+        <option name="homepage" value="https://francozeta-stepper.vercel.app" />
+        <option name="urlTemplate" value="https://francozeta-stepper.vercel.app/{name}.json" />
+      </RegistryConfigState>
     </registryConfigs>
   </component>
 </project>

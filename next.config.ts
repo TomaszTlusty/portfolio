@@ -6,6 +6,11 @@ const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
 const nextConfig: NextConfig = {
   reactCompiler: true,
 
+  webpack: (config) => {
+    config.resolve.alias.canvas = false;
+    return config;
+  },
+
   experimental: {
     optimizePackageImports: [
       'motion/react',

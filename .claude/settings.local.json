@@ -10,7 +10,9 @@
       "Bash(curl -s -o /dev/null -w \"EN root: %{http_code}\\\\n\" http://localhost:3000/en)",
       "Bash(curl -s -o /dev/null -w \"EN about: %{http_code}\\\\n\" http://localhost:3000/en/about)",
       "Bash(netstat -ano)",
-      "Bash(findstr \":3000\")"
+      "Bash(findstr \":3000\")",
+      "Bash(npm install *)",
+      "Bash(npx tsc *)"
     ]
   }
 }

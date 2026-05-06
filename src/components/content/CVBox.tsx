@@ -1,6 +1,9 @@
 "use client"
+import dynamic from 'next/dynamic'
 import { Download } from "lucide-react"
 import { useState } from "react"
+
+const PDFViewer = dynamic(() => import('./PDFViewer'), { ssr: false })
 
 export default function CVBox() {
     const [lang, setLang] = useState<"en" | "pl">("en")
@@ -40,24 +43,19 @@ export default function CVBox() {
                         </div>
 
                         <a
-                        href={`/${file}`}
-                        download={dlName}
-                        className="inline-flex items-center gap-1.5 text-xs font-medium text-black/50 hover:text-black transition-colors"
+                            href={`/${file}`}
+                            download={dlName}
+                            className="inline-flex items-center gap-1.5 text-xs font-medium text-black/50 hover:text-black transition-colors"
                         >
-                        <Download className="w-3 h-3" />
-                        {lang === "en" ? "Download" : "Pobierz"}
-                    </a>
+                            <Download className="w-3 h-3" />
+                            {lang === "en" ? "Download" : "Pobierz"}
+                        </a>
+                    </div>
+
+                    <PDFViewer file={`/${file}`} />
                 </div>
 
-                <iframe
-                    src={`/${file}#toolbar=0&navpanes=0&view=FitH`}
-                    className="w-full h-[80vh]"
-                    title="CV Preview"
-                    key={file}
-                />
             </div>
-
-        </div>
-</section>
-)
+        </section>
+    )
 }
