@@ -13,7 +13,7 @@ export const ProjectsList: ProjectType[] = [
     github: "https://github.com/TomaszTlusty/WebSecurityLearningLabs.git",
     demo: "https://web-security-learning-labs.vercel.app/",
     description:
-      "Edukacyjna aplikacja internetowa do nauki cyber bezpieczeństwa dla studentów",
+        "Edukacyjna aplikacja internetowa do nauki cyber bezpieczeństwa dla studentów",
     href: "/img/projects/web-security-learning-labs.com.webp",
   },
   {
@@ -59,7 +59,7 @@ export const ProjectsListEn: ProjectType[] = [
     github: "https://github.com/TomaszTlusty/WebSecurityLearningLabs.git",
     demo: "https://web-security-learning-labs.vercel.app/",
     description:
-      "Educational web app for learning cybersecurity for students",
+        "Educational web app for learning cybersecurity for students",
     href: "/img/projects/web-security-learning-labs.com.webp",
   },
   {
