@@ -27,7 +27,7 @@
   "about": {
     "title": "About Me",
     "p1": "I build things — from electronics with ESP32 and PCB design to 3D printing and web apps. I'm interested in cybersecurity because I like understanding how systems work from the inside and finding their weak spots.",
-    "p2": "In my projects I mainly use TypeScript, Next.js and Tailwind CSS. I'm currently on Fedora 43 KDE Plasma, after two years of using Arch Linux with Hyprland.",
+    "p2": "In my projects I mainly use TypeScript, Next.js and Tailwind CSS. I'm currently on Fedora 44 KDE Plasma, after two years of using Arch Linux with Hyprland.",
     "p3": "Other than that, I play chess, train kickboxing and read about engineering and physics",
     "p3books": "(Andrzej Dragan, GoF, Harvard Business Review)"
   },

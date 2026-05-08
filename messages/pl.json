@@ -27,7 +27,7 @@
   "about": {
     "title": "O Mnie",
     "p1": "Zajmuję się budowaniem rzeczy — od elektroniki na ESP32 i projektowania płytek PCB, po druk 3D i aplikacje webowe. Interesuję się cyberbezpieczeństwem, bo lubię rozumieć, jak systemy działają od środka i znajdować ich słabe punkty.",
-    "p2": "W moich projektach używam głównie TypeScripta, Next.js i Tailwind CSS. Aktualnie siedzę na Fedorze 43 KDE Plasma, po dwóch latach używania Arch Linuxa z Hyprlandem.",
+    "p2": "W moich projektach używam głównie TypeScripta, Next.js i Tailwind CSS. Aktualnie siedzę na Fedorze 44 KDE Plasma, po dwóch latach używania Arch Linuxa z Hyprlandem.",
     "p3": "Poza tym gram w szachy, trenuję kickboxing i czytam o inżynierii oraz fizyce",
     "p3books": "(Andrzej Dragan, GoF, Harvard Business Review)"
   },

@@ -7,26 +7,30 @@ import competitionDataPl from "@/data/competition.json";
 import competitionDataEn from "@/data/competition.en.json";
 import { careerSchema, educationSchema } from "@/lib/schemas";
 import Timeline from "./Timeline";
-import { getTranslations, getLocale } from 'next-intl/server';
+import { getTranslations, getLocale } from "next-intl/server";
 
 export default async function Experience() {
-  const t = await getTranslations('experience');
+  const t = await getTranslations("experience");
   const locale = await getLocale();
 
-  const careerRaw = locale === 'en' ? careerDataEn : careerDataPl;
-  const educationRaw = locale === 'en' ? educationDataEn : educationDataPl;
-  const competitionRaw = locale === 'en' ? competitionDataEn : competitionDataPl;
+  const careerRaw = locale === "en" ? careerDataEn : careerDataPl;
+  const educationRaw = locale === "en" ? educationDataEn : educationDataPl;
+  const competitionRaw =
+    locale === "en" ? competitionDataEn : competitionDataPl;
 
   const career = careerSchema.parse(careerRaw).career;
   const education = educationSchema.parse(educationRaw).education;
   const competition = careerSchema.parse(competitionRaw).career;
 
   return (
-    <Tabs defaultValue="work" className="w-full max-w-3xl mx-auto mt-16 px-4 sm:px-0">
+    <Tabs
+      defaultValue="work"
+      className="w-full max-w-3xl mt-16 mx-auto px-4 sm:px-0"
+    >
       <TabsList className="mb-2 grid grid-cols-3">
-        <TabsTrigger value="work">{t('work')}</TabsTrigger>
-        <TabsTrigger value="competition">{t('competition')}</TabsTrigger>
-        <TabsTrigger value="education">{t('education')}</TabsTrigger>
+        <TabsTrigger value="work">{t("work")}</TabsTrigger>
+        <TabsTrigger value="competition">{t("competition")}</TabsTrigger>
+        <TabsTrigger value="education">{t("education")}</TabsTrigger>
       </TabsList>
       <TabsContent value="work">
         <Timeline experience={career} />
