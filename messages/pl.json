@@ -9,6 +9,11 @@
     "role": "Web Developer | Tarnobrzeg",
     "selfieAlt": "Selfie Tomasza"
   },
+  "heroImage": {
+    "code": "Całkowity czas kodowania",
+    "toplanguage": "Top Język",
+    "topproject": "Top Projekt"
+  },
   "links": {
     "contact": "Kontakt"
   },

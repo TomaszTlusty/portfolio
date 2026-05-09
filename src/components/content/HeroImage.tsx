@@ -3,20 +3,20 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { FaLink } from "react-icons/fa6";
+import { useTranslations } from "next-intl";
 
 type Stats = {
   total: string | null;
   topLang: string | null;
   topProject: string | null;
-  codingNow: string | null;
 };
 
 export default function HeroImage({ alt }: { alt: string }) {
+  const t = useTranslations("heroImage");
   const [stats, setStats] = useState<Stats>({
     total: null,
     topLang: null,
     topProject: null,
-    codingNow: null,
   });
 
   useEffect(() => {
@@ -29,6 +29,7 @@ export default function HeroImage({ alt }: { alt: string }) {
   return (
     <div className="group [perspective:1000px] w-[310px] h-[370px] mx-auto sm:ml-auto sm:mr-4 cursor-pointer">
       <div className="relative w-full h-full [transform-style:preserve-3d] transition-transform duration-[600ms] ease-[cubic-bezier(0.4,0.2,0.2,1)] group-hover:[transform:rotateY(180deg)]">
+        {/* PRZÓD */}
         <div className="absolute inset-0 [backface-visibility:hidden] rounded-3xl overflow-hidden">
           <Image
             src="/img/tlusty.webp"
@@ -41,7 +42,7 @@ export default function HeroImage({ alt }: { alt: string }) {
 
         <div className="absolute inset-0 [backface-visibility:hidden] [transform:rotateY(180deg)] rounded-3xl overflow-hidden bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 flex flex-col p-7">
           <Image
-            src={"/img/fox-celebrating-success.svg"}
+            src="/img/fox-celebrating-success.svg"
             alt="fox celebrating success"
             width={200}
             height={200}
@@ -58,7 +59,7 @@ export default function HeroImage({ alt }: { alt: string }) {
           {stats.total && (
             <div className="mb-4">
               <p className="text-[10px] text-neutral-300 uppercase tracking-widest mb-1">
-                total coding time
+                {t("code")}
               </p>
               <p className="text-[14px] font-medium text-white">
                 {stats.total}
@@ -69,7 +70,7 @@ export default function HeroImage({ alt }: { alt: string }) {
           {stats.topLang && (
             <div className="mb-4">
               <p className="text-[10px] text-neutral-300 uppercase tracking-widest mb-1">
-                top language
+                {t("toplanguage")}
               </p>
               <p className="text-[13px] text-neutral-200">{stats.topLang}</p>
             </div>
@@ -78,7 +79,7 @@ export default function HeroImage({ alt }: { alt: string }) {
           {stats.topProject && (
             <div className="mb-4">
               <p className="text-[10px] text-neutral-300 uppercase tracking-widest mb-1">
-                top project
+                {t("topproject")}
               </p>
               <p className="text-[13px] text-neutral-200 truncate">
                 {stats.topProject}
@@ -91,7 +92,7 @@ export default function HeroImage({ alt }: { alt: string }) {
               href="https://hackatime.hackclub.com/@Tlusty"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[10px] text-neutral-400 hover:text-mintcream/80 transition-colors tracking-widest flex-row flex items-center gap-1"
+              className="text-[10px] text-neutral-400 hover:text-mintcream/80 transition-colors tracking-widest flex items-center gap-1"
               onClick={(e) => e.stopPropagation()}
             >
               Hackatime <FaLink />
