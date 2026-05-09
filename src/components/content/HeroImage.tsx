@@ -1,11 +1,35 @@
 "use client";
 import Image from "next/image";
+import { useEffect, useState } from "react";
+import Link from "next/link";
+import { FaLink } from "react-icons/fa6";
+
+type Stats = {
+  total: string | null;
+  topLang: string | null;
+  topProject: string | null;
+  codingNow: string | null;
+};
 
 export default function HeroImage({ alt }: { alt: string }) {
+  const [stats, setStats] = useState<Stats>({
+    total: null,
+    topLang: null,
+    topProject: null,
+    codingNow: null,
+  });
+
+  useEffect(() => {
+    fetch("/api/hackatime")
+      .then((r) => r.json())
+      .then(setStats)
+      .catch(() => {});
+  }, []);
+
   return (
-    <div className="group perspective-[1000px] w-77.5 h-92.5 mx-auto sm:ml-auto sm:mr-4 cursor-pointer">
-      <div className="relative w-full h-full transform-3d transition-transform duration-600 ease-[cubic-bezier(0.4,0.2,0.2,1)] group-hover:transform-[rotateY(180deg)]">
-        <div className="absolute inset-0 backface-hidden rounded-3xl overflow-hidden">
+    <div className="group [perspective:1000px] w-[310px] h-[370px] mx-auto sm:ml-auto sm:mr-4 cursor-pointer">
+      <div className="relative w-full h-full [transform-style:preserve-3d] transition-transform duration-[600ms] ease-[cubic-bezier(0.4,0.2,0.2,1)] group-hover:[transform:rotateY(180deg)]">
+        <div className="absolute inset-0 [backface-visibility:hidden] rounded-3xl overflow-hidden">
           <Image
             src="/img/tlusty.webp"
             alt={alt}
@@ -15,15 +39,64 @@ export default function HeroImage({ alt }: { alt: string }) {
           />
         </div>
 
-        <div className="absolute inset-0 backface-hidden transform-[rotateY(180deg)] rounded-3xl  bg-black flex flex-col items-center justify-center gap-5 px-8 text-center">
-          <div className="w-12 h-px bg-neutral-300" />
-          <p className="text-[15px] leading-relaxed  text-white">
-            &#34; Perfekcja to proces, nie cel. &#34;
+        <div className="absolute inset-0 [backface-visibility:hidden] [transform:rotateY(180deg)] rounded-3xl overflow-hidden bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 flex flex-col p-7">
+          <Image
+            src={"/img/fox-celebrating-success.svg"}
+            alt="fox celebrating success"
+            width={200}
+            height={200}
+            className="w-94 h-94 mb-4 absolute -z-10 bottom-0 opacity-10"
+          />
+
+          <p className="text-[22px] font-bold text-neutral-900 dark:text-white tracking-tight mb-1">
+            Tomasz Tłusty
           </p>
-          <div className="w-12 h-px bg-neutral-300" />
-          <p className="text-[11px] tracking-widest text-white uppercase">
-            Tomasz
+          <p className="text-[10px] text-neutral-300 tracking-wide mb-6">
+            Fullstack · Hardware · Security
           </p>
+
+          {stats.total && (
+            <div className="mb-4">
+              <p className="text-[10px] text-neutral-300 uppercase tracking-widest mb-1">
+                total coding time
+              </p>
+              <p className="text-[14px] font-medium text-white">
+                {stats.total}
+              </p>
+            </div>
+          )}
+
+          {stats.topLang && (
+            <div className="mb-4">
+              <p className="text-[10px] text-neutral-300 uppercase tracking-widest mb-1">
+                top language
+              </p>
+              <p className="text-[13px] text-neutral-200">{stats.topLang}</p>
+            </div>
+          )}
+
+          {stats.topProject && (
+            <div className="mb-4">
+              <p className="text-[10px] text-neutral-300 uppercase tracking-widest mb-1">
+                top project
+              </p>
+              <p className="text-[13px] text-neutral-200 truncate">
+                {stats.topProject}
+              </p>
+            </div>
+          )}
+
+          <div className="mt-auto border-t border-neutral-200 dark:border-neutral-800 pt-4 flex items-center justify-between">
+            <Link
+              href="https://hackatime.hackclub.com/@Tlusty"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[10px] text-neutral-400 hover:text-mintcream/80 transition-colors tracking-widest flex-row flex items-center gap-1"
+              onClick={(e) => e.stopPropagation()}
+            >
+              Hackatime <FaLink />
+            </Link>
+          </div>
         </div>
       </div>
     </div>

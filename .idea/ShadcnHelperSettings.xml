@@ -2262,6 +2262,30 @@
         <option name="homepage" value="https://francozeta-stepper.vercel.app" />
         <option name="urlTemplate" value="https://francozeta-stepper.vercel.app/{name}.json" />
       </RegistryConfigState>
+      <RegistryConfigState>
+        <option name="id" value="central-amplo" />
+        <option name="name" value="Amplo" />
+        <option name="namespace" value="@amplo" />
+        <option name="baseUrl" value="https://amplo.ale.design/r" />
+        <option name="stylePath" value="/{name}.json" />
+        <option name="type" value="community" />
+        <option name="enabled" value="false" />
+        <option name="description" value="OKLCH-native, Display-P3-aware composable fill picker with WCAG/APCA contrast metrics, gamut detection, and full keyboard accessibility." />
+        <option name="homepage" value="https://amplo.ale.design" />
+        <option name="urlTemplate" value="https://amplo.ale.design/r/{name}.json" />
+      </RegistryConfigState>
+      <RegistryConfigState>
+        <option name="id" value="central-text-ui" />
+        <option name="name" value="Text-ui" />
+        <option name="namespace" value="@text-ui" />
+        <option name="baseUrl" value="https://joelachance.github.io/text-ui/r" />
+        <option name="stylePath" value="/{name}.json" />
+        <option name="type" value="community" />
+        <option name="enabled" value="false" />
+        <option name="description" value="A shadcn/ui registry with EchoText (`echo-text`): layered stroke text that follows the pointer—minimal setup, drop-in component." />
+        <option name="homepage" value="https://joelachance.github.io/text-ui/docs" />
+        <option name="urlTemplate" value="https://joelachance.github.io/text-ui/r/{name}.json" />
+      </RegistryConfigState>
     </registryConfigs>
   </component>
 </project>
