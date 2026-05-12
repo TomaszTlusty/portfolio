@@ -6,11 +6,13 @@
       "logo": "/img/tab/Wasys.webp",
       "positions": [
         {
-          "title": "Software Engineering Intern / Frontend Developer",
+          "title": "Web Developer",
           "start": "04.2026",
-          "end": "05.2026",
+          "end": "Obecnie",
           "description": [
-            "Zbudowałem i wdrożyłem responsywne interfejsy webowe przy użyciu Next.js, TypeScript, Tailwind CSS oraz biblioteki Motion. Zarządzałem całym procesem wdrożenia za pomocą Vercel, Korzystałem z Figmy do tworzenia wireframe’ów oraz z Gita do kontroli wersji."
+            "Tworzę strony i aplikacje w PHP, WordPress, Next.js i TypeScript.",
+            "Pracuję na Linuxie z Dockerem, Nginx, PHP-FPM i MySQL.",
+            "Buduję responsywne interfejsy w Tailwind CSS i używam Git."
           ]
         }
       ]
