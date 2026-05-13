@@ -2286,6 +2286,30 @@
         <option name="homepage" value="https://joelachance.github.io/text-ui/docs" />
         <option name="urlTemplate" value="https://joelachance.github.io/text-ui/r/{name}.json" />
       </RegistryConfigState>
+      <RegistryConfigState>
+        <option name="id" value="central-framecn" />
+        <option name="name" value="Framecn" />
+        <option name="namespace" value="@framecn" />
+        <option name="baseUrl" value="https://framecn.vercel.app/r" />
+        <option name="stylePath" value="/{name}.json" />
+        <option name="type" value="community" />
+        <option name="enabled" value="false" />
+        <option name="description" value="Beautiful videos, made simple. Ready to use, customizable video components for React." />
+        <option name="homepage" value="https://framecn.vercel.app" />
+        <option name="urlTemplate" value="https://framecn.vercel.app/r/{name}.json" />
+      </RegistryConfigState>
+      <RegistryConfigState>
+        <option name="id" value="central-turbopills-ui" />
+        <option name="name" value="Turbopills-ui" />
+        <option name="namespace" value="@turbopills-ui" />
+        <option name="baseUrl" value="https://ui.turbopills.com/r" />
+        <option name="stylePath" value="/{name}.json" />
+        <option name="type" value="community" />
+        <option name="enabled" value="false" />
+        <option name="description" value="Beautiful, accessible, and customizable React components for your telehealth applications." />
+        <option name="homepage" value="https://www.turbopills.com/ui/docs" />
+        <option name="urlTemplate" value="https://ui.turbopills.com/r/{name}.json" />
+      </RegistryConfigState>
     </registryConfigs>
   </component>
 </project>
