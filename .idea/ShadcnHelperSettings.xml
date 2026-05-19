@@ -2310,6 +2310,42 @@
         <option name="homepage" value="https://www.turbopills.com/ui/docs" />
         <option name="urlTemplate" value="https://ui.turbopills.com/r/{name}.json" />
       </RegistryConfigState>
+      <RegistryConfigState>
+        <option name="id" value="central-corr" />
+        <option name="name" value="Corr" />
+        <option name="namespace" value="@corr" />
+        <option name="baseUrl" value="https://ui.corr.sh/r" />
+        <option name="stylePath" value="/{name}.json" />
+        <option name="type" value="community" />
+        <option name="enabled" value="false" />
+        <option name="description" value="A collection of shadcn-based React components, charts, animated components, and blocks built over time." />
+        <option name="homepage" value="https://ui.corr.sh" />
+        <option name="urlTemplate" value="https://ui.corr.sh/r/{name}.json" />
+      </RegistryConfigState>
+      <RegistryConfigState>
+        <option name="id" value="central-paddle" />
+        <option name="name" value="Paddle" />
+        <option name="namespace" value="@paddle" />
+        <option name="baseUrl" value="https://developer.paddle.com/r" />
+        <option name="stylePath" value="/{name}.json" />
+        <option name="type" value="community" />
+        <option name="enabled" value="false" />
+        <option name="description" value="Drop-in components for building checkouts, pricing pages, and subscription management screens using Paddle Billing." />
+        <option name="homepage" value="https://developer.paddle.com/" />
+        <option name="urlTemplate" value="https://developer.paddle.com/r/{name}.json" />
+      </RegistryConfigState>
+      <RegistryConfigState>
+        <option name="id" value="central-wensity" />
+        <option name="name" value="Wensity" />
+        <option name="namespace" value="@wensity" />
+        <option name="baseUrl" value="https://raw.githubusercontent.com/ksparth12/wensity-shadcn-registry/main" />
+        <option name="stylePath" value="/{name}.json" />
+        <option name="type" value="community" />
+        <option name="enabled" value="false" />
+        <option name="description" value="Motion-rich React components for AI interfaces, SaaS blocks, and cinematic interactions. Free Wensity components only." />
+        <option name="homepage" value="https://wensity.com" />
+        <option name="urlTemplate" value="https://raw.githubusercontent.com/ksparth12/wensity-shadcn-registry/main/{name}.json" />
+      </RegistryConfigState>
     </registryConfigs>
   </component>
 </project>

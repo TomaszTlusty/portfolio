@@ -40,7 +40,7 @@ export default function HeroImage({ alt }: { alt: string }) {
           />
         </div>
 
-        <div className="absolute inset-0 [backface-visibility:hidden] [transform:rotateY(180deg)] rounded-3xl overflow-hidden bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 flex flex-col p-7">
+        <div className="absolute inset-0 [backface-visibility:hidden] [transform:rotateY(180deg)] rounded-3xl overflow-hidden  bg-neutral-900 border border-neutral-800 flex flex-col p-7">
           <Image
             src="/img/fox-celebrating-success.svg"
             alt="fox celebrating success"
@@ -49,7 +49,7 @@ export default function HeroImage({ alt }: { alt: string }) {
             className="w-94 h-94 mb-4 absolute -z-10 bottom-0 opacity-10"
           />
 
-          <p className="text-[22px] font-bold text-neutral-900 dark:text-white tracking-tight mb-1">
+          <p className="text-[22px] font-bold  text-white tracking-tight mb-1">
             Tomasz Tłusty
           </p>
           <p className="text-[10px] text-neutral-300 tracking-wide mb-6">
@@ -87,7 +87,7 @@ export default function HeroImage({ alt }: { alt: string }) {
             </div>
           )}
 
-          <div className="mt-auto border-t border-neutral-200 dark:border-neutral-800 pt-4 flex items-center justify-between">
+          <div className="mt-auto border-t border-neutral-800 pt-4 flex items-center justify-between">
             <Link
               href="https://hackatime.hackclub.com/@Tlusty"
               target="_blank"
