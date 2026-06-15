@@ -12,7 +12,9 @@
       "Bash(netstat -ano)",
       "Bash(findstr \":3000\")",
       "Bash(npm install *)",
-      "Bash(npx tsc *)"
+      "Bash(npx tsc *)",
+      "Bash(dir /s /b C:\\\\Users\\\\tomek\\\\Desktop\\\\projects\\\\portfolio)",
+      "Bash(grep -E \"\\\\.\\(ts|tsx|js|jsx\\)$\")"
     ]
   }
 }

@@ -1,3 +1,5 @@
+export const revalidate = 3600;
+
 export async function GET() {
   try {
     const headers = {
@@ -7,13 +9,13 @@ export async function GET() {
     const [statsRes, projectsRes] = await Promise.all([
       fetch("https://hackatime.hackclub.com/api/v1/users/Tlusty/stats", {
         headers,
-        cache: "no-store",
+        next: { revalidate: 3600 },
       }),
       fetch(
         "https://hackatime.hackclub.com/api/v1/users/Tlusty/stats?features=projects",
         {
           headers,
-          cache: "no-store",
+          next: { revalidate: 3600 },
         },
       ),
     ]);
