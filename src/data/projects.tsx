@@ -13,7 +13,7 @@ export const ProjectsList: ProjectType[] = [
     github: "https://github.com/TomaszTlusty/WebSecurityLearningLabs.git",
     demo: "https://web-security-learning-labs.vercel.app/",
     description:
-        "Edukacyjna aplikacja internetowa do nauki cyber bezpieczeństwa dla studentów",
+      "Edukacyjna aplikacja internetowa do nauki cyber bezpieczeństwa dla studentów",
     href: "/img/projects/web-security-learning-labs.com.webp",
   },
   {
@@ -27,7 +27,7 @@ export const ProjectsList: ProjectType[] = [
     title: "Java Toolbox",
     github: "https://github.com/TomaszTlusty/JavaToolbox",
     demo: "https://github.com/TomaszTlusty/JavaToolbox/releases/tag/v1",
-    description: "JavaToolbox for cybersecurity",
+    description: "narzędzie do analizy sieci (nmap) w java",
     href: "/img/projects/toolbox.webp",
   },
   {
@@ -58,8 +58,7 @@ export const ProjectsListEn: ProjectType[] = [
     title: "WebSecurityLearningLabs",
     github: "https://github.com/TomaszTlusty/WebSecurityLearningLabs.git",
     demo: "https://web-security-learning-labs.vercel.app/",
-    description:
-        "Educational web app for learning cybersecurity for students",
+    description: "Educational web app for learning cybersecurity for students",
     href: "/img/projects/web-security-learning-labs.com.webp",
   },
   {
@@ -73,7 +72,7 @@ export const ProjectsListEn: ProjectType[] = [
     title: "Java Toolbox",
     github: "https://github.com/TomaszTlusty/JavaToolbox",
     demo: "https://github.com/TomaszTlusty/JavaToolbox/releases/tag/v1",
-    description: "JavaToolbox for cybersecurity",
+    description: "nmap like tool for network analysis",
     href: "/img/projects/toolbox.webp",
   },
   {
