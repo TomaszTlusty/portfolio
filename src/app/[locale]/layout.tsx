@@ -4,10 +4,14 @@ import "../globals.css";
 import GridPattern from "@/components/ui/grid-pattern";
 import { Theme } from "@radix-ui/themes";
 import Footer from "@/components/base/Footer";
-import { NextIntlClientProvider } from 'next-intl';
-import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
-import { routing, type Locale } from '@/i18n/routing';
-import { notFound } from 'next/navigation';
+import { NextIntlClientProvider } from "next-intl";
+import {
+  getMessages,
+  getTranslations,
+  setRequestLocale,
+} from "next-intl/server";
+import { routing, type Locale } from "@/i18n/routing";
+import { notFound } from "next/navigation";
 import ConsoleEasterEgg from "@/components/content/ConsoleEasterEgg";
 import JsonLd from "@/components/base/JsonLd";
 
@@ -32,12 +36,12 @@ export const viewport: Viewport = {
 };
 
 export async function generateMetadata(
-    props: LayoutProps<'/[locale]'>
+  props: LayoutProps<"/[locale]">,
 ): Promise<Metadata> {
   const { locale } = await props.params;
-  const t = await getTranslations({ locale, namespace: 'metadata' });
+  const t = await getTranslations({ locale, namespace: "metadata" });
 
-  const title = "Tomasz Tłusty – Full-Stack Developer & Hardware Maker";
+  const title = "Tomasz Tłusty – Full-Stack Developer";
 
   return {
     metadataBase: new URL("https://tlusty.dev"),
@@ -45,25 +49,47 @@ export async function generateMetadata(
       default: title,
       template: "%s | Tomasz Tłusty",
     },
-    description: t('description'),
+    description: t("description"),
     creator: "Tomasz Tłusty",
     authors: [{ name: "Tomasz Tłusty", url: "https://tlusty.dev" }],
-    keywords: locale === 'en'
-        ? ["Tomasz Tłusty", "portfolio", "full-stack developer", "Next.js", "TypeScript", "ESP32", "PCB", "cybersecurity", "Poland developer"]
-        : ["Tomasz Tłusty", "portfolio", "programista", "Next.js", "TypeScript", "ESP32", "PCB", "cyberbezpieczeństwo", "Polska"],
+    keywords:
+      locale === "en"
+        ? [
+            "Tomasz Tłusty",
+            "portfolio",
+            "full-stack developer",
+            "Next.js",
+            "TypeScript",
+            "ESP32",
+            "PCB",
+            "cybersecurity",
+            "Poland developer",
+          ]
+        : [
+            "Tomasz Tłusty",
+            "portfolio",
+            "programista",
+            "Next.js",
+            "TypeScript",
+            "ESP32",
+            "PCB",
+            "cyberbezpieczeństwo",
+            "Polska",
+          ],
     openGraph: {
-      description: t('ogDescription'),
-      url: locale === 'pl' ? "https://tlusty.dev" : `https://tlusty.dev/${locale}`,
+      description: t("ogDescription"),
+      url:
+        locale === "pl" ? "https://tlusty.dev" : `https://tlusty.dev/${locale}`,
       siteName: "Tomasz Tłusty Portfolio",
-      locale: locale === 'en' ? 'en_US' : 'pl_PL',
-      alternateLocale: locale === 'en' ? 'pl_PL' : 'en_US',
+      locale: locale === "en" ? "en_US" : "pl_PL",
+      alternateLocale: locale === "en" ? "pl_PL" : "en_US",
       type: "website",
     },
 
     twitter: {
       card: "summary_large_image",
       title,
-      description: t('twitterDescription'),
+      description: t("twitterDescription"),
     },
 
     robots: {
@@ -82,7 +108,7 @@ export async function generateMetadata(
   };
 }
 
-export default async function LocaleLayout(props: LayoutProps<'/[locale]'>) {
+export default async function LocaleLayout(props: LayoutProps<"/[locale]">) {
   const { locale } = await props.params;
 
   if (!routing.locales.includes(locale as Locale)) {
@@ -94,22 +120,22 @@ export default async function LocaleLayout(props: LayoutProps<'/[locale]'>) {
   const messages = await getMessages();
 
   return (
-      <html
-          lang={locale}
-          className={`${jakartaSans.variable} h-full antialiased`}
-          suppressHydrationWarning
-      >
+    <html
+      lang={locale}
+      className={`${jakartaSans.variable} h-full antialiased`}
+      suppressHydrationWarning
+    >
       <body className="min-h-full flex flex-col bg-mintcream text-black font-sans">
-      <JsonLd />
-      <NextIntlClientProvider messages={messages}>
-        <Theme style={{ fontFamily: 'var(--font-jakarta-sans)' }}>
-          <ConsoleEasterEgg />
-          <GridPattern />
-          {props.children}
-          <Footer />
-        </Theme>
-      </NextIntlClientProvider>
+        <JsonLd />
+        <NextIntlClientProvider messages={messages}>
+          <Theme style={{ fontFamily: "var(--font-jakarta-sans)" }}>
+            <ConsoleEasterEgg />
+            <GridPattern />
+            {props.children}
+            <Footer />
+          </Theme>
+        </NextIntlClientProvider>
       </body>
-      </html>
+    </html>
   );
 }
