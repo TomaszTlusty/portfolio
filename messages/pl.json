@@ -24,7 +24,8 @@
   },
   "projects": {
     "title": "Projekty",
-    "seeMore": "Zobacz więcej projektów"
+    "seeMore": "Zobacz więcej projektów",
+    "filterBtn": "Wszystko"
   },
   "techStack": {
     "title": "Technologie"

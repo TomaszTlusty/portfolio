@@ -1,4 +1,4 @@
-import { ProjectType } from "@/types/ProjectsType";
+import { ProjectType, Tag } from "@/types/ProjectsType";
 
 export const ProjectsList: ProjectType[] = [
   {
@@ -7,6 +7,7 @@ export const ProjectsList: ProjectType[] = [
     demo: "https://kiedywakacje.com/",
     description: "Odliczanie do wakacji, dla uczniów przez uczniów",
     href: "/img/projects/kiedywakacje.com.webp",
+    tag: [Tag.web],
   },
   {
     title: "WebSecurityLearningLabs",
@@ -15,6 +16,7 @@ export const ProjectsList: ProjectType[] = [
     description:
       "Edukacyjna aplikacja internetowa do nauki cyber bezpieczeństwa dla studentów",
     href: "/img/projects/web-security-learning-labs.com.webp",
+    tag: [Tag.web, Tag.security],
   },
   {
     title: "KRC20 checker",
@@ -22,6 +24,7 @@ export const ProjectsList: ProjectType[] = [
     demo: "false",
     description: "Aplikacja do szukania portfeli tokenów kryptowalut Kaspa",
     href: "/img/projects/KRC20.webp",
+    tag: [Tag.web],
   },
   {
     title: "Java Toolbox",
@@ -29,6 +32,7 @@ export const ProjectsList: ProjectType[] = [
     demo: "https://github.com/TomaszTlusty/JavaToolbox/releases/tag/v1",
     description: "narzędzie do analizy sieci (nmap) w java",
     href: "/img/projects/toolbox.webp",
+    tag: [Tag.security],
   },
   {
     title: "Pasjans CLI",
@@ -36,6 +40,7 @@ export const ProjectsList: ProjectType[] = [
     demo: "false",
     description: "konsolówka do gry w pasjansa",
     href: "/img/projects/pasjans.webp",
+    tag: [],
   },
   {
     title: "Chemistry Table 3D",
@@ -43,6 +48,7 @@ export const ProjectsList: ProjectType[] = [
     demo: "false",
     description: "wyswietlanie pierwiastków chemicznych w 3D",
     href: "/img/projects/chemistry.webp",
+    tag: [],
   },
 ];
 
@@ -53,6 +59,7 @@ export const ProjectsListEn: ProjectType[] = [
     demo: "https://kiedywakacje.com/",
     description: "Vacation countdown, by students for students",
     href: "/img/projects/kiedywakacje.com.webp",
+    tag: [Tag.web],
   },
   {
     title: "WebSecurityLearningLabs",
@@ -60,6 +67,7 @@ export const ProjectsListEn: ProjectType[] = [
     demo: "https://web-security-learning-labs.vercel.app/",
     description: "Educational web app for learning cybersecurity for students",
     href: "/img/projects/web-security-learning-labs.com.webp",
+    tag: [Tag.web, Tag.security],
   },
   {
     title: "KRC20 checker",
@@ -67,13 +75,15 @@ export const ProjectsListEn: ProjectType[] = [
     demo: "false",
     description: "App for finding Kaspa cryptocurrency token wallets",
     href: "/img/projects/KRC20.webp",
+    tag: [Tag.web],
   },
   {
     title: "Java Toolbox",
     github: "https://github.com/TomaszTlusty/JavaToolbox",
     demo: "https://github.com/TomaszTlusty/JavaToolbox/releases/tag/v1",
-    description: "nmap like tool for network analysis",
+    description: "Nmap-like tool for network analysis",
     href: "/img/projects/toolbox.webp",
+    tag: [Tag.security],
   },
   {
     title: "Pasjans CLI",
@@ -81,6 +91,7 @@ export const ProjectsListEn: ProjectType[] = [
     demo: "false",
     description: "CLI solitaire card game",
     href: "/img/projects/pasjans.webp",
+    tag: [],
   },
   {
     title: "Chemistry Table 3D",
@@ -88,5 +99,6 @@ export const ProjectsListEn: ProjectType[] = [
     demo: "false",
     description: "Displaying chemical elements in 3D",
     href: "/img/projects/chemistry.webp",
+    tag: [],
   },
 ];
