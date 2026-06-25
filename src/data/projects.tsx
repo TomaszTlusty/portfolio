@@ -48,7 +48,7 @@ export const ProjectsList: ProjectType[] = [
     demo: "false",
     description: "wyswietlanie pierwiastków chemicznych w 3D",
     href: "/img/projects/chemistry.webp",
-    tag: [],
+    tag: [Tag.web],
   },
 ];
 
@@ -99,6 +99,6 @@ export const ProjectsListEn: ProjectType[] = [
     demo: "false",
     description: "Displaying chemical elements in 3D",
     href: "/img/projects/chemistry.webp",
-    tag: [],
+    tag: [Tag.web],
   },
 ];
