@@ -6,13 +6,12 @@
       "logo": "/img/tab/Wasys.webp",
       "positions": [
         {
-          "title": "Web Developer",
+          "title": "Internship",
           "start": "04.2026",
-          "end": "Present",
-          "description": [
-            "Developing websites and applications using PHP, WordPress, Next.js and TypeScript.",
-            "Working on Linux with Docker, Nginx, PHP-FPM and MySQL.",
-            "Building responsive interfaces with Tailwind CSS and using Git."
+          "end": "05.2026",
+          "description": [ "Deploying and configuring WordPress-based websites",
+            "Modifying simple templates and page elements using PHP, HTML, and CSS",
+            "Supporting digital marketing activities and performing basic SEO optimization"
           ]
         }
       ]

@@ -6,7 +6,7 @@
   },
   "hero": {
     "tagline": "Projektuję. Koduję. Wdrażam.",
-    "role": "Web Developer | Tarnobrzeg",
+    "role": "pasjonat cyberbezpieczeństwa | Tarnobrzeg",
     "selfieAlt": "Selfie Tomasza"
   },
   "heroImage": {
@@ -32,10 +32,10 @@
   },
   "about": {
     "title": "O Mnie",
-    "p1": "Jestem web developerem — buduję aplikacje, których ludzie realnie używają. Najbardziej interesuje mnie tworzenie rzeczy od początku do końca: od pomysłu, przez czysty kod, po działający produkt na żywo.",
-    "p2": "Pracuję głównie w TypeScripcie, Next.js i Tailwindzie, na co dzień siedzę w Linuksie . Coraz bardziej ciągnie mnie w stronę bezpieczeństwa — lubię rozumieć systemy na tyle głęboko, żeby wiedzieć, gdzie się łamią i jak budować je tak, żeby się nie łamały.",
-    "p3": "Po godzinach gram w szachy, trenuję kickboxing i czytam o inżynierii oraz fizyce",
-    "p3books": "(Andrzej Dragan, GoF, Harvard Business Review)"
+    "p1": "Jestem młodym programistą i pasjonatem cyberbezpieczeństwa. Najbardziej kręci mnie rozpracowywanie tego, jak systemy działają pod maską: od niskopoziomowego kodu, przez elektronikę, po aplikacje webowe.",
+    "p2": "Na co dzień pracuję w Linuksie, dłubię przy mikrokontrolerach i buduję swoje pierwsze laboratoria security. Obecnie skupiam się na pwnowaniu na pwn.college oraz projektach na Hackclub. Lubię rozumieć systemy na tyle głęboko, żeby wiedzieć, gdzie i dlaczego pękają.",
+    "p3": "Po godzinach trenuję na siłowni, gram w szachy i czytam o fizyce oraz inżynierii .",
+    "p3books": "(Andrzej Dragan, Gang of Four, Harvard Business Review)"
   },
   "contact": {
     "title": "Informacje Kontaktowe",

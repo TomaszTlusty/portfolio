@@ -46,15 +46,13 @@ export default function HeroImage({ alt }: { alt: string }) {
             alt="fox celebrating success"
             width={200}
             height={200}
-            className="w-94 h-94 mb-4 absolute -z-10 bottom-0 opacity-10"
+            className="w-94 h-94 mb-8 absolute -z-10 bottom-0 opacity-10"
           />
 
           <p className="text-[22px] font-bold  text-white tracking-tight mb-1">
             Tomasz Tłusty
           </p>
-          <p className="text-[10px] text-neutral-300 tracking-wide mb-6">
-            Fullstack · Hardware · Security
-          </p>
+
 
           {stats.total && (
             <div className="mb-4">

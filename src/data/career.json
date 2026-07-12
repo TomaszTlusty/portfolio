@@ -6,13 +6,13 @@
       "logo": "/img/tab/Wasys.webp",
       "positions": [
         {
-          "title": "Web Developer",
+          "title": "Praktyki zawodowe",
           "start": "04.2026",
-          "end": "Obecnie",
+          "end": "05.2026",
           "description": [
-            "Tworzę strony i aplikacje w PHP, WordPress, Next.js i TypeScript.",
-            "Pracuję na Linuxie z Dockerem, Nginx, PHP-FPM i MySQL.",
-            "Buduję responsywne interfejsy w Tailwind CSS i używam Git."
+            "Wdrażanie i konfiguracja stron internetowych opartych na systemie WordPress",
+            "Modyfikowanie prostych szablonów i elementów stron przy użyciu PHP, HTML i CSS",
+            "Wsparcie działań marketingowych oraz podstawowa optymalizacja witryn pod kątem SEO"
           ]
         }
       ]

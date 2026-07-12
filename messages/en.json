@@ -6,7 +6,7 @@
   },
   "hero": {
     "tagline": "Design. Code. Deploy.",
-    "role": "Web Developer | Tarnobrzeg",
+    "role": "Software & Security Student | Tarnobrzeg",
     "selfieAlt": "Tomasz's selfie"
   },
   "heroImage": {
@@ -32,10 +32,10 @@
   },
   "about": {
     "title": "About Me",
-    "p1": "I'm a web developer — I build apps that people actually use. What I care about most is taking things from idea to finished product: clean code, real features, something that actually ships.",
-    "p2": "I mainly work with TypeScript, Next.js and Tailwind, and I live in the terminal on Linux (Fedora, after two years on Arch). I'm increasingly drawn to security — I like understanding systems deeply enough to know where they break, and how to build them so they don't.",
-    "p3": "Outside of code, I play chess, train kickboxing and read about engineering and physics",
-    "p3books": "(Andrzej Dragan, GoF, Harvard Business Review)"
+    "p1": "I am a young developer and cybersecurity enthusiast. My main focus is understanding how systems work under the hood: from low-level code and electronics to web applications.",
+    "p2": "On a daily basis, I use Linux, tinker with microcontrollers, and build security labs. Right now, I am focusing on solving challenges on pwn.college and Hackclub.com projects. I love exploring systems deeply enough to understand how they break and how to secure them.",
+    "p3": "In my free time, I train in the gym, play chess, and read about physics and engineering.",
+    "p3books": "(Andrzej Dragan, Gang of Four, Harvard Business Review)"
   },
   "contact": {
     "title": "Contact Information",
