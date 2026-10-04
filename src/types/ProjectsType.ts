@@ -1,6 +1,7 @@
 export enum Tag {
   web = "Web",
   security = "Security",
+  hardware = "Hardware",
 }
 
 export type ProjectType = {

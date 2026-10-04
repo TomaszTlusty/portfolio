@@ -10,6 +10,14 @@ export const ProjectsList: ProjectType[] = [
     tag: [Tag.web],
   },
   {
+    title: "Kitty Calculator",
+    github: "https://github.com/TomaszTlusty/kittycalculator",
+    demo: "false", 
+    description: "Prosty i przyjemny kalkulator na Atmega328", 
+    href: "/img/projects/kittycalc.webp",
+    tag: [Tag.hardware], 
+  },
+  {
     title: "WebSecurityLearningLabs",
     github: "https://github.com/TomaszTlusty/WebSecurityLearningLabs.git",
     demo: "https://web-security-learning-labs.vercel.app/",
@@ -25,6 +33,14 @@ export const ProjectsList: ProjectType[] = [
     description: "Aplikacja do szukania portfeli tokenów kryptowalut Kaspa",
     href: "/img/projects/KRC20.webp",
     tag: [Tag.web],
+  },
+   {
+    title: "8x8 Display",
+    github: "https://github.com/TomaszTlusty/8x8display",
+    demo: "false",
+    description: "wyświetlanie animacji na matrycy LED 8x8", 
+    href: "/img/projects/8x8.webp",
+    tag: [Tag.hardware],
   },
   {
     title: "Java Toolbox",
@@ -61,6 +77,14 @@ export const ProjectsListEn: ProjectType[] = [
     href: "/img/projects/kiedywakacje.com.webp",
     tag: [Tag.web],
   },
+   {
+    title: "Kitty Calculator",
+    github: "https://github.com/TomaszTlusty/kittycalculator",
+    demo: "false", 
+    description: "A simple and fun calculator on Atmega328", 
+    href: "/img/projects/kittycalc.webp",
+    tag: [Tag.hardware], 
+  },
   {
     title: "WebSecurityLearningLabs",
     github: "https://github.com/TomaszTlusty/WebSecurityLearningLabs.git",
@@ -76,6 +100,14 @@ export const ProjectsListEn: ProjectType[] = [
     description: "App for finding Kaspa cryptocurrency token wallets",
     href: "/img/projects/KRC20.webp",
     tag: [Tag.web],
+  },
+   {
+    title: "8x8 Display",
+    github: "https://github.com/TomaszTlusty/8x8display",
+    demo: "false",
+    description: "displaying animations on an 8x8 LED matrix", 
+    href: "/img/projects/8x8.webp",
+    tag: [Tag.hardware], 
   },
   {
     title: "Java Toolbox",
