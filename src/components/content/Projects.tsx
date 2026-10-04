@@ -40,7 +40,9 @@ const Projects = async () => {
             <p className="font-medium text-sm h-12 overflow-hidden">{project.description}</p>
             <div className="flex flex-row items-center gap-4 mt-2">
               <UserLink title="Github" href={project.github} icon={<FaGithub />} />
-              <UserLink title="Link" href={project.demo} icon={<FaLink />} />
+              {project.demo !== "false" && (
+                <UserLink title="Link" href={project.demo} icon={<FaLink />} />
+              )}
             </div>
           </article>
         ))}
