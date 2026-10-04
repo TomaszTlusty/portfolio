@@ -87,6 +87,28 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Kaliski Konkurs Informatyczny",
+      "href": "https://www.techquest.zst.lezajsk.pl/",
+      "logo": "/img/tab/Kalisz.webp",
+      "positions": [
+        {
+          "title": "Wyróżnienie",
+          "start": "2026-06",
+          "end": "dzień",
+          "description": [
+            "Udział w Kaliskim Konkursie Informatycznym"
+          ],
+          "links": [
+            {
+              "name": "Film",
+              "href": "https://youtu.be/QGSleg4mf80",
+              "icon": "globe"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
