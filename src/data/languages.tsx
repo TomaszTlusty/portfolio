@@ -7,14 +7,11 @@ import {
   SiGit,
   SiLinux,
   SiPostgresql,
+  SiC,
 } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 
 export const languages: LanguageType[] = [
-  {
-    title: "Next.js",
-    icon: <SiNextdotjs className="text-xs" />,
-  },
   {
     title: "TypeScript",
     icon: <SiTypescript className="text-xs" />,
@@ -22,6 +19,10 @@ export const languages: LanguageType[] = [
   {
     title: "Java 21+",
     icon: <FaJava className="text-xs" />,
+  },
+  {
+    title: "C99",
+    icon: <SiC className="text-xs" />,
   },
   {
     title: "Python",
