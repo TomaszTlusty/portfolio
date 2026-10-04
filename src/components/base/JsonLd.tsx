@@ -9,17 +9,20 @@ export default function JsonLd() {
         "sameAs": [
             "https://github.com/TomaszTlusty",
             "https://www.linkedin.com/in/tlusty/",
-            "https://x.com/TlustyTomasz"
+            "https://x.com/TlustyTech"
         ],
-        "jobTitle": "Full-Stack Developer & Hardware Maker",
-        "description": "Full-Stack Developer specializing in Next.js, TypeScript, and embedded hardware (ESP32, PCB design). Interested in cybersecurity.",
+        "jobTitle": "Developer & Hardware Maker",
+        "description": "Developer specializing in Next.js, TypeScript, and embedded hardware (AVR, C, PCB design). Interested in low-level systems and cybersecurity.",
         "address": {
             "@type": "PostalAddress",
             "addressLocality": "Stalowa Wola",
-            "addressCountry": "PL",
+            "addressCountry": "PL"
         },
         "email": "kontakt@tlusty.dev",
         "knowsAbout": [
+            "AVR",
+            "Assembly x86_64",
+            "Embedded C",
             "TypeScript",
             "Next.js",
             "Tailwind CSS",
@@ -28,21 +31,21 @@ export default function JsonLd() {
             "PCB Design",
             "3D Printing",
             "Cybersecurity",
-            "Linux",
+            "Linux"
         ],
         "knowsLanguage": [
             { "@type": "Language", "name": "Polish", "alternateName": "pl" },
-            { "@type": "Language", "name": "English", "alternateName": "en" },
+            { "@type": "Language", "name": "English", "alternateName": "en" }
         ],
         "alumniOf": {
             "@type": "EducationalOrganization",
-            "name": "Technikum - Kierunek Programista",
+            "name": "Zespół Szkół im. ks. Stanisława Staszica w Tarnobrzegu"
         },
         "worksFor": {
             "@type": "Organization",
             "name": "wasys.pl",
-            "url": "https://wasys.pl",
-        },
+            "url": "https://wasys.pl"
+        }
     }
 
     const websiteSchema = {
@@ -52,9 +55,9 @@ export default function JsonLd() {
         "url": "https://tlusty.dev",
         "author": {
             "@type": "Person",
-            "name": "Tomasz Tłusty",
+            "name": "Tomasz Tłusty"
         },
-        "inLanguage": ["pl-PL", "en-US"],
+        "inLanguage": ["pl-PL", "en-US"]
     }
 
     return (
